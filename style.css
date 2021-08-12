@@ -20,14 +20,29 @@
     background-color: #0971CE;
 }
 
-#azul2 {
+#azulTu {
     border-radius: 300px;
     color: white;
-    width: 350px;
+    width: 370px;
     height: 50px;
     text-align: center;
     background-color: #0971CE;
     margin-top: 30px;
+}
+
+#azulTuu {
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+}
+
+#azulTu:hover {
+    color: black;
+    background-color: #000;
 }
 
 #you {
@@ -37,7 +52,7 @@
 }
 
 #tituloMain {
-    font-size: 120px;
+    font-size: 75px;
     text-align: center;
     color: rgb(7, 7, 7);
 }
@@ -66,8 +81,6 @@
     border-radius: 10px;
     height: 550px;
     position: relative;
-    margin-bottom: -80px;
-    position: relative;
     z-index: -1;
     border-width: 5px;
     border-style: solid;
@@ -89,9 +102,9 @@
 
 #empresas {
     background-color: #1947BA;
-    height: 650px;
+    height: 750px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 5px;
     border-width: 5px;
     border-style: solid;
     border-color: #000;
@@ -111,6 +124,13 @@
     grid-template-columns: 33% 33% 33%;
 }
 
+.gridTwo {
+    text-align: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
 #cuadro {
     height: 150px;
     background-color: white;
@@ -122,12 +142,36 @@
     position: relative;
 }
 
+#cuadro:hover {
+    opacity: 0.7;
+}
+
 #imgSof {
     width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#registro {
+    background-color: #0971CE;
+    height: 300px;
+    border-radius: 10px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000;
+}
+
+form {
+    margin: 10px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -154,5 +198,14 @@
     #tuMain {
         margin-top: 5px;
         margin-bottom: -10px;
+    }
+    .gridTwo {
+        text-align: center;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #registro {
+        height: 700px;
     }
 }
