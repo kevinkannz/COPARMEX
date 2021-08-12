@@ -1,0 +1,131 @@
+    .navbar-brand {
+        margin-left: 1em;
+    }
+    
+    #titulo {
+        font-weight: 800;
+        font-size: x-large;
+        margin-left: 10px;
+    }
+    
+    .nav-item {
+        margin: 10px;
+    }
+    
+    #azul {
+        border-radius: 30px;
+        color: white;
+        width: 150px;
+        text-align: center;
+        background-color: #0971CE;
+    }
+    
+    #azul2 {
+        border-radius: 300px;
+        color: white;
+        width: 350px;
+        height: 50px;
+        text-align: center;
+        background-color: #0971CE;
+        margin-top: 30px;
+    }
+    
+    #you {
+        border-radius: 10px;
+        margin: 5px;
+        box-shadow: 0px 0px 10px rgb(158, 158, 158);
+    }
+    
+    #tituloMain {
+        font-size: 120px;
+        text-align: center;
+        color: rgb(7, 7, 7);
+    }
+    
+    #slogMain {
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #tuMain {
+        margin-top: -15px;
+    }
+    
+    #main {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #banner {
+        margin: 5px;
+        align-items: center;
+        border-radius: 10px;
+        height: 550px;
+        position: relative;
+        margin-bottom: -80px;
+        position: relative;
+        z-index: -1;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #000;
+    }
+    
+    #banner::before {
+        content: "";
+        background-image: url("img/bw.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        border-radius: 10px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.5;
+    }
+    
+    #empresas {
+        background-color: #1947BA;
+        height: 650px;
+        border-radius: 10px;
+        margin: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #000;
+    }
+    
+    #tituloEmpresas {
+        font-size: 38px;
+        color: white;
+        padding: 25px;
+        text-align: center;
+    }
+    
+    .grid {
+        text-align: center;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    #cuadro {
+        height: 150px;
+        background-color: white;
+        border-width: 6px;
+        border-style: solid;
+        border-color: #000;
+        margin: 10px;
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    #imgSof {
+        width: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
