@@ -30,20 +30,29 @@
     margin-top: 30px;
 }
 
-#azulTuu {
-    margin: auto;
-    display: block;
-    width: 400px;
+#azulNegro {
+    border-radius: 300px;
+    color: white;
+    width: 370px;
+    height: 50px;
+    text-align: center;
+    background-color: #080808;
+    margin-top: 30px;
+}
+
+#otro {
+    width: 300px;
     height: 50px;
     background-color: #000;
     color: white;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
-#azulTu:hover {
-    color: black;
-    background-color: #000;
+#azulTuu:hover {
+    color: white;
+    background-color: #1947BA;
 }
 
 #you {
@@ -113,9 +122,11 @@
 
 #tituloEmpresas {
     font-size: 38px;
+    font-style: italic;
     color: white;
     padding: 25px;
     text-align: center;
+    margin-bottom: -10px;
 }
 
 .grid {
@@ -164,9 +175,9 @@
 
 #registro {
     background-color: #0971CE;
-    height: 300px;
+    height: 600px;
+    width: 560px;
     border-radius: 10px;
-    margin: 5px;
     border-width: 5px;
     border-style: solid;
     border-color: #000;
@@ -174,12 +185,55 @@
 
 form {
     margin: 10px;
+    margin-left: 20px;
 }
 
 input {
     width: 400px;
     height: 50px;
     border-radius: 20px;
+}
+
+#imgNosotros {
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    width: 80%;
+}
+
+#mision {
+    display: block;
+    margin-left: -100px;
+    padding: 50px;
+}
+
+#tituloMision {
+    margin-bottom: 17px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+hr {
+    background-color: #1947BA;
+}
+
+#gridReal {
+    text-align: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#imgRegistro {
+    width: 101%;
+    height: 90%;
+    border-radius: 10px;
+    margin: 100px;
+    margin-left: -10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000;
 }
 
 @media screen and (max-width: 1000px) {
