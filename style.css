@@ -238,13 +238,31 @@ hr {
 }
 
 @media screen and (max-width: 1000px) {
+    #imgRegistro {
+        visibility: hidden;
+    }
+    #imgNosotros {
+        visibility: hidden;
+    }
+    #noso {
+        margin-left: -320px;
+    }
     #tituloMain {
-        font-size: 65px;
+        font-size: 50px;
+        margin: 100px;
+        margin-bottom: 10px;
+    }
+    #botonesArr {
+        grid-template-columns: 100%;
+        margin-left: 70px;
     }
     #slogMain {
         font-size: 30px;
         margin-top: -40px;
-        margin-bottom: -5px;
+        margin-bottom: -90px;
+    }
+    #tuMain {
+        margin-top: -400px;
     }
     #imgSof {
         width: 100px;
