@@ -58,7 +58,7 @@
 
 #otro:hover {
     color: white;
-    background-color: #1947BA;
+    background-color: #0971CE;
 }
 
 #you {
@@ -98,9 +98,7 @@
     height: 550px;
     position: relative;
     z-index: -1;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #000;
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
 }
 
 #banner::before {
@@ -162,9 +160,7 @@
 #cuadro {
     height: 150px;
     background-color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #0971CE;
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
     margin: 10px;
     border-radius: 10px;
     position: relative;
@@ -213,6 +209,10 @@
     margin: 5px;
 }
 
+#reg {
+    margin-bottom: 80px;
+}
+
 form {
     margin: 10px;
     margin-left: 20px;
@@ -223,9 +223,7 @@ input {
     height: 50px;
     border-radius: 20px;
     text-indent: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #0971CE;
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
 }
 
 #mision {
@@ -337,5 +335,8 @@ hr.new2 {
     }
     hr.new2 {
         width: 450px;
+    }
+    #reg {
+        margin-bottom: 20px;
     }
 }
