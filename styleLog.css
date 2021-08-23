@@ -1,0 +1,61 @@
+#Log {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+div {
+    text-align: center;
+}
+
+#form {
+    text-align: left;
+}
+
+#imgLog {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 700px;
+}
+
+#imgLog2 {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #1947BA;
+    margin-top: 50px;
+}
+
+#logDiv {
+    margin-top: 150px;
+}
+
+#inc {
+    margin-top: 50px;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #0971CE;
+}
+
+#pass {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    #imgLog {
+        visibility: hidden;
+    }
+    #Log {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #logDiv {
+        margin-top: -500px;
+    }
+}
