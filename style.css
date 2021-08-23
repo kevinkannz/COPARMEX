@@ -20,6 +20,10 @@
     background-color: #0971CE;
 }
 
+#azul:hover {
+    color: rgb(219, 219, 219);
+}
+
 #azulTu {
     border-radius: 300px;
     color: white;
@@ -28,6 +32,7 @@
     text-align: center;
     background-color: #0971CE;
     margin-top: 30px;
+    margin-right: 5px;
 }
 
 #azulNegro {
@@ -38,6 +43,7 @@
     text-align: center;
     background-color: #080808;
     margin-top: 30px;
+    margin-left: 5px;
 }
 
 #otro {
@@ -52,7 +58,7 @@
 
 #otro:hover {
     color: white;
-    background-color: #8b8b8b;
+    background-color: #1947BA;
 }
 
 #you {
@@ -111,19 +117,15 @@
 }
 
 #empresas {
-    background-color: #1947BA;
     height: 660px;
     border-radius: 10px;
     margin: 5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #000;
 }
 
 #tituloEmpresas {
     font-size: 38px;
     font-style: italic;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 25px;
     text-align: center;
     margin-bottom: -10px;
@@ -150,15 +152,48 @@
     grid-template-columns: 50% 50%;
 }
 
+.gridFour {
+    text-align: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
 #cuadro {
     height: 150px;
     background-color: white;
-    border-width: 6px;
+    border-width: 3px;
     border-style: solid;
-    border-color: #000;
+    border-color: #0971CE;
     margin: 10px;
     border-radius: 10px;
     position: relative;
+}
+
+#firstC {
+    height: 350px;
+    width: 350px;
+    background-color: rgba(245, 245, 245, 0.178);
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+#puzz {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+#nosotros {
+    text-align: center;
+    margin: 40px;
+    margin-bottom: 80px;
+}
+
+#nosotrosText {
+    margin: 10px;
 }
 
 #cuadro:hover {
@@ -174,13 +209,8 @@
 }
 
 #registro {
-    background-color: #0971CE;
-    height: 600px;
-    width: 560px;
     border-radius: 10px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #000;
+    margin: 5px;
 }
 
 form {
@@ -193,13 +223,9 @@ input {
     height: 50px;
     border-radius: 20px;
     text-indent: 10px;
-}
-
-#imgNosotros {
-    border-radius: 10px;
-    display: block;
-    margin-right: auto;
-    width: 80%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0971CE;
 }
 
 #mision {
@@ -215,15 +241,25 @@ input {
     font-size: 47px;
 }
 
-hr {
-    background-color: #1947BA;
+hr.new1 {
+    border: 2px solid #1947BA;
+    border-radius: 10px;
+    width: 320px;
+    margin-top: -5px;
+}
+
+hr.new2 {
+    border: 2px solid #1947BA;
+    border-radius: 10px;
+    width: 920px;
+    margin-top: -5px;
 }
 
 #gridReal {
     text-align: center;
     margin: 10px;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 #imgRegistro {
@@ -268,6 +304,7 @@ hr {
         width: 100px;
     }
     #empresas {
+        margin-top: -60px;
         height: 700px;
     }
     #navbarNav {
@@ -288,5 +325,17 @@ hr {
     }
     #registro {
         height: 700px;
+    }
+    .gridFour {
+        text-align: center;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #firstC {
+        margin-bottom: 50px;
+    }
+    hr.new2 {
+        width: 450px;
     }
 }
