@@ -35,12 +35,16 @@ input {
 }
 
 #inc {
-    margin-top: 50px;
+    margin-top: 25px;
     color: white;
     border-radius: 10px;
     width: 200px;
     text-align: center;
     background-color: #0971CE;
+}
+
+#inc:hover {
+    background-color: black;
 }
 
 #pass {

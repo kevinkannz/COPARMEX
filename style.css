@@ -49,7 +49,7 @@
 #otro {
     width: 300px;
     height: 50px;
-    background-color: #000;
+    background-color: #0971CE;
     color: white;
     border-radius: 20px;
     margin-top: 10px;
@@ -58,7 +58,7 @@
 
 #otro:hover {
     color: white;
-    background-color: #0971CE;
+    background-color: #000;
 }
 
 #you {
@@ -193,6 +193,7 @@
 }
 
 #cuadro:hover {
+    box-shadow: 0px 0px 10px #1947BA;
     opacity: 0.7;
 }
 
